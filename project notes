@@ -1,0 +1,3 @@
+1. rails new app_name -G --database=postgresql
+2. rails g model User username:string password_digest:string session_token:string
+    This generates a model and pre-populated migration from the command line.
